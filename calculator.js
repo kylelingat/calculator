@@ -1,17 +1,17 @@
 function calculator (operation,a,b) {
-  if (operation == 'add') {
+  if (operation == 'add' || operation == 'addition') {
     console.log(a + b);
   }
-  else if (operation == 'subtract') {
+  else if (operation == 'subtract' || operation == 'subtraction') {
     console.log(a - b);
   }
-  else if (operation == 'multiply') {
+  else if (operation == 'multiply' || operation == 'multiplication' ) {
     console.log(a * b);
   }
-  else if (operation == 'divide') {
+  else if (operation == 'divide' || operation == 'division') {
     console.log (a / b);
   }
 }
 
 
-calculator('divide',2,3)
+calculator('division',9,3)
